@@ -1,0 +1,263 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.fontSize": 17,
+  "editor.matchBrackets": "never",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.glyphMargin": false,
+  // This is for making the base-atelier-dune theme looks smooth on the variables
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955", // Green for comments (more subtle and less harsh)
+    "variables": "#9CDCFE", // Light blue for variables
+    "functions": "#DCDCAA", // Light yellow for functions
+    "keywords": "#C586C0", // Purple for keywords
+    "strings": "#CE9178", // Salmon for strings
+    "numbers": "#B5CEA8", // Light green for numbers
+    "types": "#4EC9B0", // Cyan for types
+    "operators": "#D4D4D4" // Keep operators in default color
+  },
+  // Suggestions
+  "editor.wordBasedSuggestions": "off",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.roundedSelection": false,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.cursorStyle": "block",
+  "editor.lineNumbers": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.folding": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  "diffEditor.renderSideBySide": false,
+  // Vim setup
+  "vim.enableNeovim": false,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+  "vim.leader": "<space>",
+  "vim.cursorStylePerMode.insert": "block",
+  "vim.autoSwitchInputMethod.enable": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "i"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.focus"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "u"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusActiveEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "o"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.toggleTerminal"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusFirstEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusSecondEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.format.enable": false,
+  "window.closeWhenEmpty": true,
+  "diffEditor.renderIndicators": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.buildFlags": [
+    "-v"
+  ],
+  "go.useLanguageServer": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.testEnvFile": "",
+  "go.toolsManagement.autoUpdate": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.cursorSurroundingLines": 10,
+  "workbench.enableExperiments": false,
+  "explorer.compactFolders": false,
+  "telemetry.telemetryLevel": "off",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.neovimUseConfigFile": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 4,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "extensions.ignoreRecommendations": true,
+  "editor.guides.indentation": false,
+  "editor.semanticHighlighting.enabled": false,
+  "workbench.colorCustomizations": {
+    "editor.background": "#1E1E1E", // Dark background
+    "editor.foreground": "#D4D4D4", // Light gray text
+    "editor.selectionBackground": "#264F78", // Blue selection background
+    "editor.lineHighlightBackground": "#2C313A", // Slightly lighter background for the current line
+    "editorCursor.foreground": "#528BFF", // Blue cursor
+    "editorWhitespace.foreground": "#4B5263", // Gray for whitespace
+    "editorIndentGuide.background": "#3E4451", // Subtle gray indent guides
+    "editorIndentGuide.activeBackground": "#528BFF", // Highlighted indent guide for the active line
+    "editorError.foreground": "#F44747", // Red for errors
+    "editorWarning.foreground": "#FFCC00", // Yellow for warnings
+    "editorInfo.foreground": "#569CD6", // Blue for informational messages
+    "editorGutter.background": "#1E1E1E", // Background of the gutter
+    "editorGutter.modifiedBackground": "#B89500", // Yellow for modified lines
+    "editorGutter.addedBackground": "#4B8B00", // Green for added lines
+    "editorGutter.deletedBackground": "#C24C4C" // Red for deleted lines
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+  "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": false,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": false,
+  "rust-analyzer.inlayHints.reborrowHints.enable": "never",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.bindingModeHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "never",
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "never",
+  "rust-analyzer.inlayHints.closingBraceHints.minLines": 0,
+  "rust-analyzer.completion.callable.snippets": "none",
+  "rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+  "rust-analyzer.procMacro.ignored": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "hidden"
+}
